@@ -1,0 +1,15 @@
+.cta li .btn.btn-light {
+  border: 1px solid #999;
+  color: #000;
+  padding: 0.5em 1.5em;
+}
+
+.cta li .btn.btn-warning {
+  color: #fff;
+  padding: 0.5em 1.5em;
+}
+
+.hero .container .row .col a.btn.btn-warning {
+  color: #fff;
+  padding: 0.5em 2em;
+}
