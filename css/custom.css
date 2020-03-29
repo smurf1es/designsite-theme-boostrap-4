@@ -1,3 +1,26 @@
+.nav-link {
+  color: #2f281e !important;
+  transition: opacity ease-in 0.2s;
+}
+
+.nav-link:hover {
+  opacity: 0.5;
+}
+
+.button-play {
+  color: #ff9900;
+  margin-left: 1em;
+}
+
+.button-play:hover {
+  color: #ff9900;
+}
+
+.button-play img {
+  width: 12.5px;
+  margin-right: 0.5rem;
+}
+
 .cta li .btn.btn-light {
   border: 1px solid #999;
   color: #000;
@@ -9,7 +32,30 @@
   padding: 0.5em 1.5em;
 }
 
+.hero {
+  height: 99vh;
+}
+
+.hero h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
 .hero .container .row .col a.btn.btn-warning {
   color: #fff;
   padding: 0.5em 2em;
+}
+
+.offers {
+  height: 80vh;
+}
+
+.icons {
+  background: url("../images/Bg.png");
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
